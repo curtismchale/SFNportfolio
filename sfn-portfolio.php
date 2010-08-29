@@ -1,9 +1,9 @@
 <?php
 
     /*
-        Plugin Name: SFNevents
+        Plugin Name: SFNportfolio
         Plugin URI: 
-        Description: Builds a custom post type named 'event' and gives multiple view options that may be needed
+        Description: Builds a custom post type named 'sfn-portfolio' and gives multiple view options that may be needed
         Version: 0.1
         Author: Curtis McHale
         Author URI: http://curtismchale.ca
