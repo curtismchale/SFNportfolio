@@ -1,9 +1,13 @@
 <?php
+    
+    /*
+    * @package SFNportfolio
+    */
 
     /*
         Plugin Name: SFNportfolio
         Plugin URI: 
-        Description: Builds a custom post type named 'sfn-portfolio' and gives multiple view options that may be needed
+        Description: Builds a custom post type named 'sfn_portfolio' and gives multiple view options that may be needed
         Version: 0.1
         Author: Curtis McHale
         Author URI: http://curtismchale.ca
@@ -27,6 +31,9 @@
 
 ?>
 <?php
+    
+    // defining plugin version number
+    define('SFNPORTFOLIO_VERSION', '0.1');
 
     // determining the plugin base path
     $plugin_base_path = ( dirname(__FILE__));
