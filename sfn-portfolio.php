@@ -28,13 +28,16 @@
 ?>
 <?php
 
+    // determining the plugin base path
+    $plugin_base_path = ( dirname(__FILE__));
+    
     // includes the custom post type
-    require_once(TEMPLATEPATH . '/assets/includes/sfn-portfolio-custom-post-type.php');
+    require_once( $plugin_base_path .  '/assets/includes/sfn-portfolio-custom-post-types.php' );
 
     // includes the custom taxonomy
-    require_once(TEMPLATEPATH . '/assets/includes/sfn-portfolio-custom-taxonomies.php');
+    require_once( $plugin_base_path . '/assets/includes/sfn-portfolio-custom-taxonomies.php' );
 
     // differing views with shortcodes come from here
-    require_once(TEMPLATEPATH . '/assets/includes/sfn-portfolio-custom-views.php');
+    require_once( $plugin_base_path . '/assets/includes/sfn-portfolio-custom-views.php' );
 
 ?>

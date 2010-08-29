@@ -6,10 +6,8 @@
 
     function sfn_portfolio_custom_post_type() {
         
-        register_post_type('sfn_portfolio', 
-            
+        register_post_type('sfn_portfolio',
             array(
-
                 'labels'                => array(
                     'name'                  => __('Portfolio'),
                     'singular_name'         => __('Portfolio'),
@@ -31,10 +29,7 @@
                'hierarchical'           => false, // functions like posts
                'supports'               => array('title', 'editor', 'revisions', 'excerpt', 'thumbnail'),
                'can_export'             => true, 
-            ), // end register post type array
-
+            ) // end register post type array
         ); // end register_post_type
-
     } // end sfn_portfolio_custom_post_type
-
 ?>

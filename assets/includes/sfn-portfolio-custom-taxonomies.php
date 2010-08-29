@@ -20,7 +20,7 @@
             'public'            => true,
             'hierarchical'      => true, //acts like categories
             'rewrite'           => true,
-            ), // end options array 
+            ) // end options array 
         ); // end register_taxonomy
 
          register_taxonomy('sfn_technologies_used', array('sfn_portfolio'), array(
@@ -38,7 +38,7 @@
             'public'            => true,
             'hierarchical'      => true, //acts like categories
             'rewrite'           => true,
-            ), // end options array 
+            ) // end options array 
         ); // end register_taxonomy
  
     } // end sfn_events_custom_taxonomy
